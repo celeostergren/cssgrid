@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.4fr 0.4fr 0.4fr;
+  grid-template-rows: 3fr 3fr 3fr 0.8fr;
+  
+}
+
+main {
+  background: #87CEEB;
+}
+.sidebar{
+  background: #00BFFF;
+}
+.content{
+  background: #0000FF;
+}
+footer{
+  background: #7B68EE	;
+}
