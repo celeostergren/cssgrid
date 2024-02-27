@@ -1,20 +1,82 @@
 .container {
   display: grid;
-  height: 100vh;
-  grid-template-columns: 0.4fr 0.4fr 0.4fr;
-  grid-template-rows: 3fr 3fr 3fr 0.8fr;
+  grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 2fr 1fr 1.5fr;
+  gap: 5px;
+}
   
+
+.s_1 {
+  background: #B0E0E6;
+  grid-row: 1/3;
+  grid-column: 1/2;
 }
 
-main {
-  background: #87CEEB;
+.s_2 {
+  background: #ADD8E6;
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
-.sidebar{
+
+.s_3 {
+  background: #87CEFA;
+  grid-row: 4/6;
+  grid-column: 1/2;
+}
+
+
+.m_1 {
   background: #00BFFF;
+  grid-row: 1/4;
+  grid-column: 2/4;
 }
-.content{
+
+
+.m_2 {
+  background: #B0C4DE;
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+
+
+.m_3 {
+  background: #1E90FF;
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+
+.m_4 {
+  background: #6495ED;
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+
+.c_1 {
+  background: #4682B4;
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+.c_2 {
+  background: #4169E1;
+  grid-row: 5/6;
+  grid-column: 2/3;
+}
+
+.c_3 {
   background: #0000FF;
+  grid-row: 4/6;
+  grid-column: 3/4;
 }
-footer{
-  background: #7B68EE	;
+
+.c_4 {
+  background: #0000CD;
+  grid-row: 4/6;
+  grid-column: 4/5;
+}
+
+.footer {
+  background: #7B68EE;
+  grid-row: 6/7;
+  grid-column: 1/5;
 }
